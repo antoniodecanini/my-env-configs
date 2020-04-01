@@ -67,7 +67,7 @@
     "git.enableSmartCommit": true,
     "editor.parameterHints.enabled": true,
     "typescript.updateImportsOnFileMove.enabled": "never",
-    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.shell.linux": "/bin/zsh",
     "explorer.confirmDragAndDrop": false,
     "liveshare.featureSet": "insiders",
     "explorer.confirmDelete": false,
