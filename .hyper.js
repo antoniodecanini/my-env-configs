@@ -152,7 +152,6 @@ module.exports = {
   plugins: [
     "hyper-dracula",
     "hyper-font-ligatures",
-    "hyperline",
     "hyper-active-tab",
     "hyper-search",
   ],

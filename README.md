@@ -1,38 +1,44 @@
-## Configurações do meu Ambiente de Desenvolvimento
+## My Dev Environment
+First of all install git
 
-### Instalar ZSH
-```
-https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
-```
+### Install ZSH
+[https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 
-### Instalar Oh-My-Zsh
+
+### Install Oh-My-Zsh
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-### Instalar a fonte FiraCode
+### Install FiraCode font
 ```
-https://github.com/tonsky/FiraCode/releases
+sudo apt install fonts-firacode
 ```
 
-### Instalar Spaceship
+### Install Spaceship
 ```
 git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
-```
-```
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 ```
 
-### Instalar ZInit
+### Install ZInit
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"'
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
 ```
 
-### Finalizando Terminal
-Após terminar todas instalações substituir as configs dos arquivos ```.hyper.js``` e ```.zshrc```.
+### Install Hyper
+[hyper.is](hyper.is)
 
-### Instalar e configurar VScode
-#### Extensões:
+Open Hyper Terminal and run this command to install Dracula Theme
+```
+hyper install hyper-dracula
+```
+
+### Finishing Terminal
+After everything installed, replace the files ```.hyper.js``` e ```.zshrc``` in your home.
+
+### VSCode cfg
+#### Extensions:
 - Color Highlight
 - DotENV
 - Dracula Official
@@ -43,7 +49,6 @@ Após terminar todas instalações substituir as configs dos arquivos ```.hyper.
 - Live Server
 - Live Share
 - Material Icon Theme
-- Pomodoro Timer
 - vscode-styled-components
 
-Após instalar as extensões, copiar o ```vscSettings.json```.
+After everything installed, replace the vsCode settings with ```vscSettings.json``` settings.
