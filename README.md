@@ -48,6 +48,7 @@ After everything installed, replace the files ```.hyper.js``` e ```.zshrc``` in 
 - GraphQL (Prisma)
 - Live Server
 - Live Share
+- Live Share Audio
 - Material Icon Theme
 - vscode-styled-components
 
