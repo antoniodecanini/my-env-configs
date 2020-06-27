@@ -44,6 +44,7 @@ After everything installed, replace the files ```.hyper.js``` e ```.zshrc``` in 
 - Dracula Official
 - EditorConfig for VS Code
 - ESLint
+- Prettier - Coder formatter
 - GitLens - Git supercherged
 - GraphQL (Prisma)
 - Live Server
