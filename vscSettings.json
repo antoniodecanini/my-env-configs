@@ -11,7 +11,9 @@
 
     // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
     "editor.rulers": [80, 120],
-    "editor.formatOnSave": false,
+    
+    "editor.formatOnSave": true,
+    "prettier.eslintIntegration": true,
 
     "eslint.packageManager": "yarn",
     
