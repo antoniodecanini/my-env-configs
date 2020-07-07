@@ -153,7 +153,6 @@ module.exports = {
     "hyper-dracula",
     "hyper-font-ligatures",
     "hyper-active-tab",
-    "hyper-search",
   ],
 
   // in development, you can create a directory under
