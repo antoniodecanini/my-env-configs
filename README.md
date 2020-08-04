@@ -51,6 +51,7 @@ After everything installed, replace the files ```.hyper.js``` e ```.zshrc``` in 
 - Live Share
 - Live Share Audio
 - Material Icon Theme
+- SQLite
 - vscode-styled-components
 
 After everything installed, replace the vsCode settings with ```vscSettings.json``` settings.
