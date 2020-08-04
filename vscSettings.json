@@ -75,8 +75,8 @@
     "explorer.confirmDelete": false,
 
     "typescript.tsserver.log": "verbose",
-    "javascript.suggest.autoImports": false,
-    "typescript.suggest.autoImports": false,
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
     "workbench.activityBar.visible": true,
     
     "material-icon-theme.folders.associations": {
