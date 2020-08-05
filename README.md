@@ -1,57 +1,61 @@
-## My Dev Environment
-First of all install git
+# 👨🏻‍💻 My Development Environmet
 
-### Install ZSH
-[https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+<p align="center">
+  <a href="https://github.com/antoniodecanini">
+    <img alt="Made by Antonio Decanini" src="https://img.shields.io/badge/made%20by-Antonio%20Decanini-brightgreen">
+  </a>
 
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
+</p>
 
-### Install Oh-My-Zsh
+This script was made to facilitate the configuration of my development environment. It is adapted to my needs,
+so it may not fully satisfy you. Fell free to aplly the necessary changes to your environment.
+
+---
+
+## 📋 Features
+
+In short, `configure.sh`, install and configure:
+
+- git,
+- nodeJS (stable version),
+- yarn,
+- zsh,
+- Oh-My-Zsh,
+- Some plugins and fonts of my taste for zsh and hyper,
+- Install some vsCode extensions,
+- Setup my vsCode configs.
+
+---
+
+## 🚀 Getting Started
+
+### 🔴 Before you start
+
+- Install manually [vsCode](https://code.visualstudio.com/Download) and [hyper](https://hyper.is/#installation).
+
+### Step 1 - 👯 Clone this repo to your local machine
+
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+$ git clone https://github.com/antoniodecanini/my-env-configs.git
+
+$ cd my-env-configs
 ```
 
-### Install FiraCode font
+### Step 2 - 🔧 Run configure.sh
+
 ```
-sudo apt install fonts-firacode
+./configure.sh
 ```
 
-### Install Spaceship
-```
-git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
-ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
-```
+---
 
-### Install ZInit
-```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
-```
+## 📝 License
 
-### Install Hyper
-[hyper.is](hyper.is)
+<img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
 
-Open Hyper Terminal and run this command to install Dracula Theme
-```
-hyper install hyper-dracula
-```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Finishing Terminal
-After everything installed, replace the files ```.hyper.js``` e ```.zshrc``` in your home.
+---
 
-### VSCode cfg
-#### Extensions:
-- Color Highlight
-- DotENV
-- Dracula Official
-- EditorConfig for VS Code
-- ESLint
-- Prettier - Coder formatter
-- GitLens - Git supercherged
-- GraphQL (Prisma)
-- Live Server
-- Live Share
-- Live Share Audio
-- Material Icon Theme
-- SQLite
-- vscode-styled-components
-
-After everything installed, replace the vsCode settings with ```vscSettings.json``` settings.
+Made with ❤️ Enjoy it!
