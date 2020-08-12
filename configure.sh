@@ -64,6 +64,7 @@ code --install-extension naumovs.color-highlight
 code --install-extension PKief.material-icon-theme
 code --install-extension Prisma.vscode-graphql
 code --install-extension ritwickdey.LiveServer
+code --install-extension ms-azuretools.vscode-docker
 
 ## Replace vsCode configs
 cp configs/settings.json ~/.config/Code/User/settings.json
