@@ -1,4 +1,4 @@
-# 👨🏻‍💻 My Development Environmet
+# 👨🏻‍💻 My WSL Development Environmet
 
 <p align="center">
   <a href="https://github.com/antoniodecanini">
@@ -8,47 +8,23 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
 </p>
 
-This script was made to facilitate the configuration of my development environment. It is adapted to my needs,
+This script was made to facilitate the configuration of my WSL development environment. It is adapted to my needs,
 so it may not fully satisfy you. Fell free to aplly the necessary changes to your environment.
-
----
 
 ## 📋 Features
 
-In short, `configure.sh`, install and configure:
+In short, `install.sh`, install and configure:
 
-- git,
-- nodeJS (stable version),
-- yarn,
-- zsh,
-- Oh-My-Zsh,
-- Some plugins and fonts of my taste for zsh and hyper,
-- Install some vsCode extensions,
-- Setup my vsCode configs.
+- zsh with Oh-My-Zsh, Zinit and Spaceship theme
+- NVM with latest node lts and yarn
 
----
+## 🚀 Install
 
-## 🚀 Getting Started
+### Automatic
 
-### 🔴 Before you start
-
-- Install manually [vsCode](https://code.visualstudio.com/Download) and [hyper](https://hyper.is/#installation).
-
-### Step 1 - 👯 Clone this repo to your local machine
-
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/antoniodecanini/my-env-configs/master/install.sh)"
 ```
-$ git clone https://github.com/antoniodecanini/my-env-configs.git
-
-$ cd my-env-configs
-```
-
-### Step 2 - 🔧 Run configure.sh
-
-```
-./configure.sh
-```
-
----
 
 ## 📝 License
 
