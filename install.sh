@@ -20,7 +20,6 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 cd && mkdir www && cd www
 git clone https://github.com/antoniodecanini/my-env-configs.git
 cp my-env-configs/configs/.zshrc ~
-cp my-env-configs/configs/.spaceshiprc.zsh ~
 
 # Install NVM, latest LTS Node.js and enable yarn
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
